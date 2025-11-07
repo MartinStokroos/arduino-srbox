@@ -1,10 +1,12 @@
 /*
+ * File: srbox-tester.c
+ * 
  * Serial Response Box Tester
  *
- * Compile with: $ gcc -o sr-box-tester sr-box-tester.c
+ * Compile with: $ gcc -o srbox-tester srbox-tester.c
  *
- * Use with PST srbox: $ ./sr-box-tester /dev/ttyS0
- * Use with Arduino srbox: $ ./sr-box-tester /dev/ttyACM0
+ * Use with PST srbox: $ ./srbox-tester /dev/ttyS0
+ * Use with Arduino srbox: $ ./srbox-tester /dev/ttyACM0
  *
  * This program first blinks all the lamps once, and then it shows the pressed button codes.
  * Terminate by pressing Enter or Ctrl-C.
