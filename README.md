@@ -14,6 +14,9 @@ When using normally-closed (NC) contacts, please change the code en set `ncSwitc
 Use LED's with 330E to 1K series resistors on outputs 2-6. Please refer to the Arduino website on how to connect LED's to digital ports.
 When using transistor logic at the lamp outputs, the logic levels can be inverted by setting `outputInvert = true` in the code.
 
+## Wiring diagram
+![Arduino sr-box wiring](sr-box_bb.png)
+
 ## Using the arduino-srbox with OpenSesame 4
 For using the arduino-srbox in OpenSesame, drag the *srbox* plugin into the experiment. Use port: `/dev/ttyACMx`, `/dev/ttyUSBx` or `COMx` on Windows.
 
